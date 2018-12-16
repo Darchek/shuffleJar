@@ -77,12 +77,17 @@ We started creating some MLP architectures and testing how it performed.
 
 ![models table](https://user-images.githubusercontent.com/10107933/50060014-85021200-018e-11e9-95d4-7268a5ce88c3.JPG)
 
-
 To compare the results, we create a first model with only three layers, and evaluate the dataset. Next, we create more models by increasing the layer numbers.
+
+
+Here it is possible to see the losses of every model:
 
 ![loss](https://user-images.githubusercontent.com/10107933/50060253-fa231680-0191-11e9-8718-8fcd8cc05ca7.JPG)
 
 
+Following it is possible to see the accuracy of every model:
+
+![accuracy](https://user-images.githubusercontent.com/10107933/50060282-5423dc00-0192-11e9-952c-72e15ff5a89f.JPG)
 
 
 ## 3.2 Convolutional Neural Network
