@@ -73,7 +73,7 @@ A ReLU Activation function and a Cross-Entropy Loss function have been used.
 ![loss function](https://user-images.githubusercontent.com/10107933/50059922-75ce9480-018d-11e9-98ff-0d0d729c3380.JPG)
 
 
-We started creating some MLP architectures and testing how it performed. 
+A partciular MLP architectures have been evaluated to find the better performance. 
 
 ![models table](https://user-images.githubusercontent.com/10107933/50060014-85021200-018e-11e9-95d4-7268a5ce88c3.JPG)
 
