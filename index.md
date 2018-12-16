@@ -58,15 +58,22 @@ We have implemented three different models [...]
 
 
 # 3. Models
-We decided to evaluate three different approaches of increasing difficulty and performance: a Multilayer Perceptron (MLP), a Convolutional Neural Network (CNN) and a Recurrent Nerual Network (RNN). 
+We decided to evaluate three different approaches of increasing difficulty and performance: a Multilayer Perceptron (MLP), a Convolutional Neural Network (CNN) and a Recurrent Neural Network (RNN). 
 
 For the first two approaches (MLP and CNN) we used the simplified dataset, in which the simplified drawings have been rendered into a 28x28 grayscale bitmap in numpy .npy format. While for the RNN, [...]
 
 ## 3.1 Multilayer Perceptron
 
-To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a neural network
+To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a Neural Network. It can be distinguish from the liner perceptron because the multiple hidden layers.
+
+![mlp layer](https://user-images.githubusercontent.com/10107933/50059826-1a4fd700-018c-11e9-8cae-279a28b2a5ef.JPG)
+
+A ReLU Activation function as been used, and a Cross-Entropy Loss function.
+
+![loss function](https://user-images.githubusercontent.com/10107933/50059922-75ce9480-018d-11e9-98ff-0d0d729c3380.JPG)
 
 
+![models table](https://user-images.githubusercontent.com/10107933/50059963-04dbac80-018e-11e9-9642-7cc634d70c2a.JPG)
 
 
 ## 3.2 Convolutional Neural Network
