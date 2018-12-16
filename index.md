@@ -64,6 +64,11 @@ For the first two approaches (MLP and CNN) we used the simplified dataset, in wh
 
 ## 3.1 Multilayer Perceptron
 
+To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a neural network
+
+
+
+
 ## 3.2 Convolutional Neural Network
 
 Our motivation to tackle this problem of image classification using a CNN (Convolutional Neural Network) is quite obvious, because it is a specialized kind of neural network for processing data that has a known grid-like topology that leverages the ideas of local connectivity, parameter sharing and pooling/subsampling hidden units. *The basic idea behind a CNN is that the network learns hierarchical representations of the data with increasing levels of abstraction.*
