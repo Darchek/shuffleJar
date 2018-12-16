@@ -68,7 +68,7 @@ To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses
 
 ![mlp layer](https://user-images.githubusercontent.com/10107933/50059826-1a4fd700-018c-11e9-8cae-279a28b2a5ef.JPG)
 
-A ReLU Activation function and a Cross-Entropy Loss function as been used.
+A ReLU Activation function and a Cross-Entropy Loss function have been used.
 
 ![loss function](https://user-images.githubusercontent.com/10107933/50059922-75ce9480-018d-11e9-98ff-0d0d729c3380.JPG)
 
