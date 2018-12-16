@@ -73,7 +73,10 @@ A ReLU Activation function as been used, and a Cross-Entropy Loss function.
 ![loss function](https://user-images.githubusercontent.com/10107933/50059922-75ce9480-018d-11e9-98ff-0d0d729c3380.JPG)
 
 
-![models table](https://user-images.githubusercontent.com/10107933/50059963-04dbac80-018e-11e9-9642-7cc634d70c2a.JPG)
+We started creating the some basic MLP architectures and testing how it performed. 
+
+![models table](https://user-images.githubusercontent.com/10107933/50060014-85021200-018e-11e9-95d4-7268a5ce88c3.JPG)
+
 
 
 ## 3.2 Convolutional Neural Network
