@@ -77,19 +77,17 @@ A partciular MLP architectures have been evaluated to find the better performanc
 
 ![models table](https://user-images.githubusercontent.com/10107933/50060014-85021200-018e-11e9-95d4-7268a5ce88c3.JPG)
 
-To compare the results, we create a first model with only three layers, and evaluate the dataset. Next, we create more models by increasing the layer numbers.
+First, we create a basic model with only three layers, and evaluate the dataset. Later on, we increase the complexity of the network trying to obtain a better performance.
 
 
-Here it is possible to see the losses of every model:
+We collect all the results for a better comparison:
 
 ![loss](https://user-images.githubusercontent.com/10107933/50060253-fa231680-0191-11e9-8718-8fcd8cc05ca7.JPG)
 
 
-Following it is possible to see the accuracy of every model:
-
 ![accuracy](https://user-images.githubusercontent.com/10107933/50060309-9cdb9500-0192-11e9-8dc6-4b7059623b0e.JPG)
 
-With this architectures, the best accuracy we obtained was 85.3% in the Model 4, however it could clearly be seen that the network was overfit.
+With this architectures, the best accuracy we obtained was 85.3% in the **Model 4**, however it could clearly be seen that the network was overfit.
 To prevent this, we decided to implement a loss regularization by adding a new parameter in the cross-entropy loss (weight_decay)
 
 ![overfiting_formula](https://user-images.githubusercontent.com/10107933/50060387-7c600a80-0193-11e9-8955-5747c5705d66.JPG)
