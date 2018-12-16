@@ -64,7 +64,7 @@ For the first two approaches (MLP and CNN) we used the simplified dataset, in wh
 
 ## 3.1 Multilayer Perceptron
 
-To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a Neural Network. It can be distinguish from the liner perceptron because this one have multiple hidden layers:
+To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a Neural Network. It can be distinguish from the liner perceptron because it uses multiple hidden layers:
 
 ![mlp layer](https://user-images.githubusercontent.com/10107933/50059826-1a4fd700-018c-11e9-8cae-279a28b2a5ef.JPG)
 
