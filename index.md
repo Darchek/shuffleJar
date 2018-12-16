@@ -87,7 +87,13 @@ Here it is possible to see the losses of every model:
 
 Following it is possible to see the accuracy of every model:
 
-![accuracy](https://user-images.githubusercontent.com/10107933/50060282-5423dc00-0192-11e9-952c-72e15ff5a89f.JPG)
+![accuracy](https://user-images.githubusercontent.com/10107933/50060309-9cdb9500-0192-11e9-8dc6-4b7059623b0e.JPG)
+
+With this architectures, the best accuracy we obtained was 85.3% in the Model 4, however it could clearly be seen that the network was overfit.
+To prevent this, we decided to implement a loss regularization by adding a new parameter in the cross-entropy loss (weight_decay)
+
+![overfiting_formula](https://user-images.githubusercontent.com/10107933/50060387-7c600a80-0193-11e9-8955-5747c5705d66.JPG)
+
 
 
 ## 3.2 Convolutional Neural Network
