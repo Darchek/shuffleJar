@@ -64,18 +64,24 @@ For the first two approaches (MLP and CNN) we used the simplified dataset, in wh
 
 ## 3.1 Multilayer Perceptron
 
-To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a Neural Network. It can be distinguish from the liner perceptron because the multiple hidden layers.
+To start, the first model to evaluate was a MLP (Multilayer Perceptron). It uses a supervised learning technique (backpropagation) to train a Neural Network. It can be distinguish from the liner perceptron because this one have multiple hidden layers:
 
 ![mlp layer](https://user-images.githubusercontent.com/10107933/50059826-1a4fd700-018c-11e9-8cae-279a28b2a5ef.JPG)
 
-A ReLU Activation function as been used, and a Cross-Entropy Loss function.
+A ReLU Activation function and a Cross-Entropy Loss function as been used.
 
 ![loss function](https://user-images.githubusercontent.com/10107933/50059922-75ce9480-018d-11e9-98ff-0d0d729c3380.JPG)
 
 
-We started creating the some basic MLP architectures and testing how it performed. 
+We started creating some MLP architectures and testing how it performed. 
 
 ![models table](https://user-images.githubusercontent.com/10107933/50060014-85021200-018e-11e9-95d4-7268a5ce88c3.JPG)
+
+
+To compare the results, we create a first model with only three layers, and evaluate the dataset. Next, we create more models by increasing the layer numbers.
+
+![loss](https://user-images.githubusercontent.com/10107933/50060253-fa231680-0191-11e9-8718-8fcd8cc05ca7.JPG)
+
 
 
 
