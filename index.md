@@ -92,6 +92,9 @@ To prevent this, we decided to implement a loss regularization by adding a new p
 
 ![overfiting_formula](https://user-images.githubusercontent.com/10107933/50060387-7c600a80-0193-11e9-8955-5747c5705d66.JPG)
 
+The regularization does not provide the desired results, but it does improve the previous results a little bit
+
+![overfiting](https://user-images.githubusercontent.com/10107933/50060611-13c65d00-0196-11e9-87a6-331eb31168c0.JPG)
 
 
 ## 3.2 Convolutional Neural Network
